@@ -1,7 +1,10 @@
 package view;
 
 import Controller.viewController;
-
+/**
+ *
+ * @author marif
+ */
 public class dashboard extends viewController {
 
     public dashboard() {
