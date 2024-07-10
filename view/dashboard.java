@@ -12,7 +12,7 @@ public class dashboard extends viewController {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -110,31 +110,31 @@ public class dashboard extends viewController {
 
         pack();
         setLocationRelativeTo(null);
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
 
-    private void btnNilaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNilaiActionPerformed
-        System.exit(0);
-    }//GEN-LAST:event_btnNilaiActionPerformed
+    private void btnNilaiActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        openFrame("nilaiMhs");
+    }                                        
 
-    private void btnDataMahasiswaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDataMahasiswaActionPerformed
+    private void btnDataMahasiswaActionPerformed(java.awt.event.ActionEvent evt) {                                                 
         openFrame("pendaftaranMhs");
-    }//GEN-LAST:event_btnDataMahasiswaActionPerformed
+    }                                                
 
-    private void btnDaftarMahasiswaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDaftarMahasiswaActionPerformed
+    private void btnDaftarMahasiswaActionPerformed(java.awt.event.ActionEvent evt) {                                                   
         openFrame("daftarMhs");
-    }//GEN-LAST:event_btnDaftarMahasiswaActionPerformed
+    }                                                  
 
-    private void btnInputProdiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInputProdiActionPerformed
+    private void btnInputProdiActionPerformed(java.awt.event.ActionEvent evt) {                                              
         openFrame("pendaftaranProdi");
-    }//GEN-LAST:event_btnInputProdiActionPerformed
+    }                                             
 
-    private void btnDaftarProdiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDaftarProdiActionPerformed
+    private void btnDaftarProdiActionPerformed(java.awt.event.ActionEvent evt) {                                               
         openFrame("daftarProdi");
-    }//GEN-LAST:event_btnDaftarProdiActionPerformed
+    }                                              
 
-    private void btnKeluarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKeluarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnKeluarActionPerformed
+    private void btnKeluarActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        System.exit(0);
+    }                                         
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -168,7 +168,7 @@ public class dashboard extends viewController {
             }
         });
     }
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.JButton btnDaftarMahasiswa;
     private javax.swing.JButton btnDaftarProdi;
     private javax.swing.JButton btnDataMahasiswa;
@@ -176,5 +176,5 @@ public class dashboard extends viewController {
     private javax.swing.JButton btnKeluar;
     private javax.swing.JButton btnNilai;
     private javax.swing.JLabel jLabel1;
-    // End of variables declaration//GEN-END:variables
+    // End of variables declaration                   
 }
