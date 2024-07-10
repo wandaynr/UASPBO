@@ -30,6 +30,8 @@ public class viewController extends JFrame {
                 new daftarMhs();
             case "daftarProdi" ->
                 new daftarProdi();
+            case "nilaiMhs" ->
+                new nilaiMhs();
             default ->
                 null;
         };
